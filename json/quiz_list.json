@@ -1,0 +1,124 @@
+{
+  "quiz_list": [
+    {
+      "question" : "Apakah nama CPU yang disematkan di dalam Honor 9i?",
+      "choices": [
+        "Kirin 659",
+        "MT6752",
+        "Snapdragon 626",
+        "Exynos5430"
+      ],
+      "correct_answer" : "Kirin 659",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Tagline dari Honor 9i adalah…",
+      "choices": [
+        "Handphone all around",
+        "Smile all around",
+        "Beauty all around",
+        "Exam all around"
+      ],
+      "correct_answer" : "Beauty all around",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Kenapa Honor 9i bisa menghasilkan foto selfie lebih bagus dari smartphone lainnya?",
+      "choices": [
+        "Honor 9i mempunyai kamera depan 16 MP",
+        "Honor 9i memiliki teknologi foto low-light",
+        "Pemilik Honor 9i punya wajah yang rupawan",
+        "Semua jawaban diatas benar"
+      ],
+      "correct_answer" : "Semua jawaban diatas benar",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Berapa ukuran layar Hono4 9i?",
+      "choices": [
+        "4 inch",
+        "5,84 inch dengan Honor Notch Fullview Display",
+        "5 inch",
+        "3,5 inch"
+      ],
+      "correct_answer" : "5,84 inch dengan Honor Notch Fullview Display",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Bagaimana cara membuka kunci layar Honor 9i?",
+      "choices": [
+        "Face ID",
+        "Password",
+        "Fingerprint",
+        "Semua jawaban diatas benar"
+      ],
+      "correct_answer" : "Semua jawaban diatas benar",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Material yang dipakai di bagian belakang Honor 9i adalah…",
+      "choices": [
+        "Plastik",
+        "Kaca",
+        "Metal",
+        "Semua jawaban diatas benar"
+      ],
+      "correct_answer" : "Kaca",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Honor 9i menggunakan EMUI versi…",
+      "choices": [
+        "EMUI 5.0",
+        "EMUI 6.0",
+        "EMUI 7.0",
+        "EMUI 8.0"
+      ],
+      "correct_answer" : "EMUI 8.0",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Berapakah harga resmi Honor 9i di Indonesia?",
+      "choices": [
+        "Rp. 2,599,000 / Rp. 3,099,000",
+        "Rp. 3,599,000 / Rp. 4,099,000",
+        "Rp. 4,599,000 / Rp. 5,099,000",
+        "Rp. 5,599,000 / Rp. 6,099,000"
+      ],
+      "correct_answer" : "Rp. 2,599,000 / Rp. 3,099,000",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Di mana kamu bisa mendapatkan informasi paling update tentang Honor?",
+      "choices": [
+        "Google",
+        "Kompas",
+        "Forum Honor",
+        "Kaskus"
+      ],
+      "correct_answer" : "Forum Honor",
+      "score" : 10,
+      "is_question_available": true
+    },
+    {
+      "question" : "Apakah nama aplikasi forum Honor yang bisa kalian gunakan di smartphone?",
+      "choices": [
+        "Honor Club",
+        "Honor Club",
+        "Honor Club",
+        "Honor Club"
+      ],
+      "correct_answer" : "Honor Club",
+      "score" : 10,
+      "is_question_available": true
+    }
+  ]
+}
