@@ -247,3 +247,9 @@ p {
   right: -40px;
   transform: translate(-50%, -50%);
 }
+
+.at-expanding-share-button-desktop.at-expanding-share-button.addthis-smartlayers.addthis-animated.slideInRight {
+    display: none;
+    top: 3%;
+    right: 10%;
+}
