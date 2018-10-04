@@ -151,17 +151,16 @@ p {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
   background-color: white;
   border: 3px solid black;
 }
 
-.bg_answer:hover,
-.bg_answer:focus {
+.bg_answer:active {
   background-color: red;
 }
 
-.bg_answer.correct:hover,
-.bg_answer.correct:focus {
+.bg_answer.correct:active {
   background-color: green;
 }
 
@@ -171,7 +170,6 @@ p {
   width: 70%;
 }
 
-.bg_answer p:hover,
-.bg_answer p:focus {
+.bg_answer p:active {
   color: white;
 }
