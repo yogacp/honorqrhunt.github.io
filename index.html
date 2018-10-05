@@ -8,6 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Honor QR Hunt Quiz">
+    <meta property="og:title" content="Honor QR Hunt Quiz" />
+    <meta property="og:url" content="http://bit.ly/qrhunt-r1" />
+    <meta property="og:image" content="https://condescending-meitner-e2657a.netlify.com/img/ic_homepage.png" />
+    <meta property="og:description" content="Find out to get your score" />
+    <meta property="og:site_name" content="Honor QR Hunt Quiz" />
     <link rel="shortcut icon" href="img/favicon.ico">
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -237,15 +242,29 @@
         </div>
     </div>
 
+    <div class="wrappe bg_share" style="display:none;">
+      <div class="bg_content_share">
+        <img src="img/bg_share_content.png" />
+        <img src="img/ic_share.png" class="btn_share" style="display:none;" />
+        <img src="img/ic_btn_download.png" class="btn_download" />
+        <img src="img/ic_btn_web.png" class="btn_web" />
+        <img src="img/ic_btn_take_quiz_again.png" class="btn_take_quiz_again" />
+      </div>
+    </div>
+
     <footer class="footer">
+        <div class="text-center" id="btn_share" style="display:none;">
+            <div class="sharethis-inline-share-buttons"></div>
+        </div>
         <div class="text-center">
-                <small class="copyright">&copy; 2018 Honor QR Hunt Quiz.</small>
+            <small class="copyright">&copy; 2018 Honor QR Hunt Quiz.</small>
         </div>
     </footer>
 
     <input type="hidden" id="user_score" value="0" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="//platform-api.sharethis.com/js/sharethis.js#property=5bb71351cc49680011f76c9c&product=inline-share-buttons"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $("#quiz1 .bg_answer").click(function(){
@@ -308,7 +327,23 @@
             });
 
             $(".bg_score .next").click(function(){
-                window.open('share.html');
+                $(".bg_score").hide();
+                $(".bg_share").show();
+                $("#btn_share").show();
+            });
+
+            $(".bg_content_share .btn_download").click(function(){
+                window.open('https://drive.google.com/file/d/1cAW_-e1urDQ1QtKSTKL6HLuKsHDlqNQz/view?usp=sharing', '_blank');
+            });
+
+            $(".bg_content_share .btn_web").click(function(){
+                window.open('https://club.hihonor.com/id/index', '_blank');
+            });
+
+            $(".bg_content_share .btn_take_quiz_again").click(function(){
+                $(".bg_share").hide();
+                $("#btn_share").hide();
+                $(".bg_quiz").show();
             });
         });
 
